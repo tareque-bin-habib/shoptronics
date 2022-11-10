@@ -1,0 +1,22 @@
+.header {
+    height: 90px;
+    /* background-color: orange; */
+    border-bottom: 4px solid cyan;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 100px;
+}
+
+.header img {
+    width: 6%;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-right: 20px;
+    font-weight: bold;
+}

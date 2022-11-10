@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "img": "https://retailminded.com/wp-content/uploads/2016/03/EN_GreenOlive-1.jpg",
+        "name": "Retail Minded",
+        "ratings": 4,
+        "Seller": "Addidas",
+        "Price": 530
+    },
+    {
+        "id": 2,
+        "img": "https://img.freepik.com/free-photo/headphones-audio-listen_1203-7566.jpg?w=2000",
+        "name": "Headphone",
+        "ratings": 3,
+        "Seller": "Havit",
+        "Price": 900
+    },
+    {
+        "id": 3,
+        "img": "https://phoneshopbd.com/21061-large_default/nillkin-nothing-phone-one-phone-1-frosted-shield-matte-back-cover-case.jpg",
+        "name": "Phone Cover",
+        "ratings": 2,
+        "Seller": "Besus",
+        "Price": 450
+    },
+    {
+        "id": 4,
+        "img": "https://images.samsung.com/is/image/samsung/p6pim/bd/sm-a336elbrbkd/gallery/bd-galaxy-a33-5g-a336-sm-a336elbrbkd-thumb-532154602?$320_320_PNG$",
+        "name": "A-50",
+        "ratings": 4,
+        "Seller": "Samsung",
+        "Price": 15000
+    },
+    {
+        "id": 5,
+        "img": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXN8ZW58MHx8MHx8&w=1000&q=80",
+        "name": "Shoes A7",
+        "ratings": 5,
+        "Seller": "Nike",
+        "Price": 1500
+    },
+    {
+        "id": 6,
+        "img": "https://retailminded.com/wp-content/uploads/2016/03/EN_GreenOlive-1.jpg",
+        "name": "Retail Minded",
+        "ratings": 4,
+        "Seller": "Addidas",
+        "Price": 530
+    }
+]

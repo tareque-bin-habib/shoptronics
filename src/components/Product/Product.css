@@ -1,0 +1,29 @@
+.product-card {
+    width: 310px;
+    height: 500px;
+    border: 1px solid grey;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.product-card img {
+    height: 250px;
+    width: 300px;
+    padding: 10px;
+}
+
+.card-details {
+    padding: 10px;
+
+}
+
+.card-details h5,
+h3 {
+    margin-top: 0;
+}
+
+.addToCartBtn {
+    width: 100%;
+    background-color: aqua;
+    border: none;
+}
