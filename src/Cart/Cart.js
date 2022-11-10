@@ -1,18 +1,25 @@
 import React from 'react';
 import './Cart.css'
 const Cart = (props) => {
-    const { products } = props
+    const { cart } = props
+    console.log(cart)
+    let total = 0
+    // for (const product of cart) {
+    //     total = total + product.Price
+
+    // }
     return (
         <div>
             <h1>Cart Overview</h1>
-            {
-                products.length > 0 && products.map((data, index) => <h2 key={index}>{data}</h2>)
-            }
             <div className='Calculation'>
-                <h4>Total Price: </h4>
-                <h4>Tax: </h4>
+                <p>Item Selected: {cart.length}</p>
+                <p>Total Price: {total} </p>
+                <p>Tax: </p>
                 <h3>Grand Total: </h3>
             </div>
+            {
+                cart.length > 0 && cart.map((data, index) => <h2 key={index}>{data}</h2>)
+            }
         </div>
     );
 };
