@@ -4,20 +4,25 @@ import Product from '../Product/Product';
 import './Shop.css'
 const Shop = () => {
     const [products, setProducts] = useState([])
+    const [cart, setCart] = useState('');
     useEffect(() => {
         fetch('fakeDb.json')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])
+    const addToCart = (products) => {
+        const newProduct = [...cart, products]
+        setCart(newProduct)
+    }
     return (
         <div className='shop-container'>
             <div className='products-container'>
                 {
-                    products.map(product => <Product product={product} key={product.id}></Product>)
+                    products.map(product => <Product product={product} key={product.id} addToCart={addToCart} ></Product>)
                 }
             </div>
             <div className='cart-container'>
-                <Cart></Cart>
+                <Cart products={cart}></Cart>
             </div>
         </div>
     );
