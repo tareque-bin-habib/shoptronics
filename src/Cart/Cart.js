@@ -11,7 +11,7 @@ const Cart = (props) => {
         grandTotal = total + shipingCharge
     }
     return (
-        <div>
+        <div className='cart-container'>
             <h1>Cart OverView</h1>
             <p>Total Selected: {cart.length}</p>
             <p>Total Price: {total} </p>

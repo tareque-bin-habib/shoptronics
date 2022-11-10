@@ -1,9 +1,10 @@
 .product-card {
     width: 310px;
     height: 500px;
-    border: 1px solid grey;
+    border: 4px solid hotpink;
     margin-top: 50px;
     margin-left: 60px;
+    border-radius: 5px;
 }
 
 .product-card img {
@@ -24,6 +25,7 @@ h3 {
 
 .addToCartBtn {
     width: 100%;
-    background-color: aqua;
+    background-color: hotpink;
     border: none;
+    color: #fff;
 }
